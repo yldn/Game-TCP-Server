@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{5BF1AA46-E22A-48FD-82F0-8C497121B7CC}|Default">
+  <MonoDevelop.Ide.ItemProperties.ChatRoomServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChatRoomServer/DecisionPool.cs">
+    <Files>
+      <File FileName="ChatRoomServer/Program.cs" Line="104" Column="13" />
+      <File FileName="ChatRoomServer/Planet.cs" Line="127" Column="21" />
+      <File FileName="ChatRoomServer/UTIL.cs" Line="79" Column="17" />
+      <File FileName="ChatRoomServer/Client.cs" Line="43" Column="31" />
+      <File FileName="ChatRoomServer/Decision.cs" Line="11" Column="31" />
+      <File FileName="ChatRoomServer/PlanetaryEffect.cs" Line="18" Column="5" />
+      <File FileName="ChatRoomServer/DecisionPool.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
