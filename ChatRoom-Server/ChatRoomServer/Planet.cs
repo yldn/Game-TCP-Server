@@ -259,7 +259,35 @@ public class Planet
         effect.Do(this);
 
     }
-         
 
+    public void StatsRegulation()
+    {
+        if (oxygen < 0)
+            oxygen = 0;
+        if (sealvl < 0)
+            sealvl = 0;
+        if (temperature < 0)
+            temperature = 0;
+        if (sulphur < 0)
+            sulphur = 0;
+        if (sugar < 0)
+            sugar = 0;
+        if (lipids < 0)
+            lipids = 0;
+        if (aminoAcids < 0)
+            aminoAcids = 0;
+        if (carbon < 0)
+            carbon = 0;
+        if (water < 0)
+            water = 0;
+        if (singleCellCount < 0)
+            singleCellCount = 0;
+        if (multiCellCount < 0)
+            multiCellCount = 0;
+        if (advancedCount < 0)
+            advancedCount = 0;
+        if (plantCount < 0)
+            plantCount = 0;
+    }
 
 }

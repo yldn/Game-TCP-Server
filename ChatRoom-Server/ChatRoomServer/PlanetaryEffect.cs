@@ -52,6 +52,7 @@ public class PlanetaryEffect
         _planet.sulphur += deltaSulphur;
         _planet.temperature += deltaTemperature;
         _planet.water += deltaWater;
+        _planet.StatsRegulation();
     }
 
     public int GetTicks()
