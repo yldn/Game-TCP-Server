@@ -217,6 +217,9 @@ public class Planet
 
     public void AddVote(bool _vote)
     {
+        if (currentDecision == null)
+            return;
+
         if (_vote)
         {
             currentDecision.VoteYes();
