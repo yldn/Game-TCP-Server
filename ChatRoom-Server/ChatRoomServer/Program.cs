@@ -97,9 +97,8 @@ namespace ChatRoomServer
 
             //for testing: cmd -> ipconfig -all -> ip v4
             //tcpServer.Bind(new IPEndPoint(IPAddress.Parse("127.0.0.1"), 7788));
-            tcpServer.Bind(new IPEndPoint(IPAddress.Parse("192.168.1.102"), 7788));
+            tcpServer.Bind(new IPEndPoint(IPAddress.Parse("192.168.1.104"), 7788));
             tcpServer.Listen(100);
-
             Console.WriteLine("server running.");
 
             while (true)
@@ -130,8 +129,6 @@ namespace ChatRoomServer
         {
             //TODO Load all planets/players from Database
 
-           
-
             //the one planet needed for the presentation
             Planet planet = new Planet();
             planets.Add(planet);
@@ -147,29 +144,29 @@ namespace ChatRoomServer
                     p.Ping();
 
                 }
-                System.Threading.Thread.Sleep(30);
+                System.Threading.Thread.Sleep(5000);
                 ////过**s开始生成 Decision 
-                //sendDecesion();
+                sendDecesion(); 
             }
 
         }
 
 
-        //static void sendDecesion()
-        //{
-        //    //send Decision
-        //    if(clientlist.Count >= 1)
-        //    {
-        //        Decision newDecision = DecisionPool.GetDecision(planets[0]);
+        static void sendDecesion()
+        {
+            //send Decision
+            if (clientlist.Count >= 1)
+            {
+                Decision newDecision = DecisionPool.GetDecision(planets[0]);
 
-        //        //Console.WriteLine("new Decision :" + newDecision.ToMessageString());
+                //Console.WriteLine("new Decision :" + newDecision.ToMessageString());
 
-        //        BroadcastMeseage(newDecision.ToMessageString());
+                BroadcastMeseage(newDecision.ToMessageString());
 
-        //    }
-        //}
+            }
+        }
 
-       
+
         public static List<Planet> getPlanets()
         {
             return planets;

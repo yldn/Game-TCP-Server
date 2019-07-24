@@ -115,7 +115,7 @@ public class Planet
         {
             pings = 0;
             Tick();
-            System.Threading.Thread.Sleep(20);
+            System.Threading.Thread.Sleep(200);
 
         }
         else
@@ -148,12 +148,10 @@ public class Planet
             {
                 if (currentDecision.GetVotesYes() > currentDecision.GetVotesNo())
                 {
-
                     effects.Add(currentDecision.GetEffect());
                     this.MapDecisionToPlanetStats(effects[0]);
                 }
-
-
+                
                 currentDecision = null;
             }
         }
@@ -193,7 +191,6 @@ public class Planet
         {
             if(p.GetClient() != null)
             {
-                
                 p.GetClient().SendMessage(_decision.ToMessageString());
                 //Console.WriteLine(_decision.ToMessageString());
             }
@@ -250,7 +247,6 @@ public class Planet
     {
         if (players == null)
             players = new List<Player>();
-
         players.Add(_player);
     }
 

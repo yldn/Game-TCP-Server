@@ -19,3 +19,10 @@ C:/Users/hasee/Desktop/socgam2019group14_ass2server/ChatRoom-Server/ChatRoomServ
 C:/Users/hasee/Desktop/socgam2019group14_ass2server/ChatRoom-Server/ChatRoomServer/obj/Debug/ChatRoomServer.csproj.CoreCompileInputs.cache
 C:/Users/hasee/Desktop/socgam2019group14_ass2server/ChatRoom-Server/ChatRoomServer/obj/Debug/ChatRoomServer.exe
 C:/Users/hasee/Desktop/socgam2019group14_ass2server/ChatRoom-Server/ChatRoomServer/obj/Debug/ChatRoomServer.pdb
+C:\Users\hasee\Desktop\Gitlab\Game-TCP-Client\Game-TCP-Server\ChatRoom-Server\ChatRoomServer\bin\Debug\ChatRoomServer.exe.config
+C:\Users\hasee\Desktop\Gitlab\Game-TCP-Client\Game-TCP-Server\ChatRoom-Server\ChatRoomServer\bin\Debug\ChatRoomServer.exe
+C:\Users\hasee\Desktop\Gitlab\Game-TCP-Client\Game-TCP-Server\ChatRoom-Server\ChatRoomServer\bin\Debug\ChatRoomServer.pdb
+C:\Users\hasee\Desktop\Gitlab\Game-TCP-Client\Game-TCP-Server\ChatRoom-Server\ChatRoomServer\obj\Debug\ChatRoomServer.csprojAssemblyReference.cache
+C:\Users\hasee\Desktop\Gitlab\Game-TCP-Client\Game-TCP-Server\ChatRoom-Server\ChatRoomServer\obj\Debug\ChatRoomServer.csproj.CoreCompileInputs.cache
+C:\Users\hasee\Desktop\Gitlab\Game-TCP-Client\Game-TCP-Server\ChatRoom-Server\ChatRoomServer\obj\Debug\ChatRoomServer.exe
+C:\Users\hasee\Desktop\Gitlab\Game-TCP-Client\Game-TCP-Server\ChatRoom-Server\ChatRoomServer\obj\Debug\ChatRoomServer.pdb
